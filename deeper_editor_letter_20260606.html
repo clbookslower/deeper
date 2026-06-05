@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>작가님의 목소리를 들려주세요 · DEEPER 편집팀</title>
+<meta name="description" content="DEEPER 8권 동시출간 · 더 좋은 책을 위해 편집팀이 작가님께 드리는 부탁입니다.">
+<!-- Open Graph (카카오톡·SNS 링크 미리보기). og:url은 깃헙 페이지 게시 후 실제 주소로 채우면 더 안정적입니다. -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="도서출판 클북 · DEEPER">
+<meta property="og:title" content="작가님의 목소리를 들려주세요">
+<meta property="og:description" content="DEEPER 8권 동시출간 · 더 좋은 책을 위해 편집팀이 드리는 부탁">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0F0F0F; --ink-soft:#3A3A3A; --ink-mid:#555; --ink-muted:#888;
+    --rule:#E2DED8; --accent:#1A4A35; --accent-mid:#2D6B4F; --accent-pale:#E8F2EC;
+    --accent-light:#A8CBBA; --bg:#FAFAF7; --surface:#FFFFFF; --warm:#F7F4EE; --amber:#B5731A; --amber-pale:#FBF3E6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--ink);font-family:'Noto Serif KR',serif;font-size:16px;line-height:2;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:720px;margin:0 auto;background:var(--surface);}
+  .hero{background:linear-gradient(160deg,#0D2B1E 0%,#1A4A35 55%,#2D6B4F 100%);padding:66px 48px 58px;text-align:center;}
+  .hero img.logo{width:108px;height:auto;margin:0 auto 28px;display:block;}
+  .hero-eyebrow{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.3em;color:var(--accent-light);text-transform:uppercase;margin-bottom:24px;}
+  .hero h1{font-family:'Noto Serif KR',serif;font-size:clamp(25px,4.5vw,34px);font-weight:700;color:#fff;line-height:1.45;letter-spacing:-.02em;margin-bottom:16px;}
+  .hero-project{font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.22em;color:var(--accent-light);text-transform:uppercase;margin-bottom:28px;}
+  .hero-divider{width:40px;height:1px;background:rgba(255,255,255,.22);margin:0 auto 26px;}
+  .hero-message{font-family:'Noto Serif KR',serif;font-size:clamp(17px,2.6vw,20px);font-weight:400;color:rgba(255,255,255,.9);line-height:1.7;}
+  .body{padding:52px 48px 40px;}
+  .greet{font-size:16.5px;color:var(--ink-soft);margin-bottom:22px;}
+  h2{font-family:'Noto Serif KR',serif;font-size:18.5px;font-weight:700;color:var(--accent);margin:40px 0 14px;padding-bottom:10px;border-bottom:1px solid var(--rule);}
+  p{color:var(--ink-soft);margin:0 0 16px;}
+  .lead{color:var(--ink-mid);}
+  .pull{font-family:'Noto Serif KR',serif;font-size:18px;font-weight:600;color:var(--accent);line-height:1.7;margin:22px 0;padding-left:18px;border-left:3px solid var(--accent-light);}
+  ul{list-style:none;margin:0 0 16px;}
+  li{position:relative;padding-left:22px;margin:9px 0;color:var(--ink-soft);}
+  li::before{content:'';position:absolute;left:4px;top:15px;width:6px;height:6px;border-radius:50%;background:var(--accent-mid);}
+  .hl{background:var(--accent-pale);border:1px solid var(--accent-light);border-radius:14px;padding:22px 26px;margin:18px 0;}
+  .hl b{color:var(--accent);}
+  .soft-card{background:var(--warm);border:1px solid var(--rule);border-radius:12px;padding:20px 24px;margin:16px 0;}
+  .deadline{background:var(--amber-pale);border:1px solid #E8C99A;border-radius:12px;padding:16px 22px;margin:18px 0;color:#7A4D12;font-family:'Noto Sans KR',sans-serif;font-size:15px;line-height:1.8;}
+  .deadline b{color:var(--amber);}
+  .sign{margin-top:42px;padding-top:24px;border-top:1px solid var(--rule);color:var(--ink-mid);font-size:15px;}
+  .sign b{color:var(--ink);}
+  .foot{background:#0D2B1E;color:rgba(255,255,255,.6);text-align:center;padding:26px 48px;font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.08em;}
+  .foot b{color:#fff;font-weight:500;}
+  em.soft{color:var(--ink-muted);font-style:normal;font-family:'Noto Sans KR',sans-serif;font-size:14px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <img class="logo" src="data:image/png;base64,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" alt="DEEPER">
+    <div class="hero-eyebrow">DEEPER 편집팀 드림 · 8권 동시출간</div>
+    <h1>작가님의 목소리를,<br>들려주시겠어요?</h1>
+    <div class="hero-project">피플웨어 AI강사 · DEEPER</div>
+    <div class="hero-divider"></div>
+    <div class="hero-message">오직 작가님만 쓸 수 있는 책이 되도록.</div>
+  </div>
+
+  <div class="body">
+    <p class="greet">작가님, 안녕하세요. 도서출판 클북·DEEPER 편집팀입니다.<br>
+    바쁜 일정 속에서도 이 출간에 마음을 내어 주셔서, 먼저 깊이 감사드립니다.</p>
+
+    <p>오늘은 더 좋은 책을 위해, 편집자로서 품고 있는 고민 하나를 솔직히 나누고 작가님께 도움을 청하려 합니다.</p>
+
+    <h2>편집자인 제 고민부터 말씀드릴게요</h2>
+    <p>좋은 원고를 앞에 두고 제가 가장 오래 들여다보는 질문은 이것입니다. <b>어떻게 하면 이 책에서 작가님만의 목소리가 또렷이 들리게 할까.</b></p>
+    <p>요즘 서점에는 AI 활용서가 가득합니다. 사용법과 프롬프트를 담은 책들은, 표지를 가려 놓으면 어느 책인지 분간하기 어려울 만큼 서로 닮아 있습니다. AI와 함께 쓴 글은 누구의 손에서 나왔든 비슷한 결로 모이기 쉽거든요. 이건 작가님만의 일이 아니라, 지금 이 시대의 모든 원고가 함께 안고 가는 숙제입니다.</p>
+
+    <p>그래서 우리가 함께 마주하고 싶은 지점이 하나 있어요. 지금 여덟 권은 구성도 문체도 서로 꽤 닮아 있고, 그 책들이 같은 날 한 서가에 나란히 놓입니다. 닮은 결이 한자리에 모이면, 각 권이 지닌 진짜 강점이 도드라지기보다 안타깝게도 저마다의 개성이 묻히게 될 수도 있어서요.</p>
+
+    <h2>그런데 독자가 끝내 한 권을 고르는 이유</h2>
+    <p>독자가 지갑을 여는 이유는 정보가 아닙니다. <b>'이 사람'입니다.</b></p>
+    <p>같은 프롬프트라도, 그 분야에서 실제로 부딪히며 일해 본 사람이 건넬 때 무게가 다릅니다. 그 현장을 아는 사람만이 짚어낼 수 있는 한 줄, 그 사람 특유의 말투와 시선 — 그것이 책을 '정보'에서 '브랜드'로 끌어올립니다.</p>
+    <p class="pull">도메인 전문성 × AI = 누구도 베낄 수 없는, 작가님만의 브랜드.</p>
+    <p class="lead">DEEPER가 이 프로젝트를 시작하며 믿은 한 문장입니다. 작가님이 가진 현장의 깊이는 AI가 아무리 발전해도 대신 써 줄 수 없는 자산이고, 그 자산이 책에 담길 때 한 권은 강의로, 강의는 브랜드로 자라납니다.</p>
+
+    <h2>여덟 권이 같은 날 함께 나옵니다</h2>
+    <p>이번 프로젝트의 가장 큰 힘은, 여덟 분의 책이 같은 날 함께 세상에 나온다는 데 있습니다. 여덟 분의 작가님 모두가 한꺼번에 주목받는, 흔치 않은 무대지요.</p>
+    <p>여덟 권이 동시에 세상에 태어나지만, 한 권 한 권이 저마다 다른 목소리로 독자들을 찾아갈 때, 가장 의미가 크게 빛날 것이라 믿어요. 작가님 책에서 작가님만의 색을 끝까지 살려 드리는 것 — 이번 편집에서 제가 가장 잘 해내고 싶은 일입니다.</p>
+
+    <h2>그래서, 작가님께 부탁드립니다</h2>
+    <p>이 일을 잘하려면 먼저 한 가지가 필요합니다. 작가님이 실제로 어떻게 말하고 쓰시는지 제가 배우는 것입니다.</p>
+    <div class="hl">
+      <p style="margin:0"><b>작가님이 평소에 쓰신 글을 3~5편만 보내 주시겠어요?</b></p>
+    </div>
+    <ul>
+      <li>블로그·SNS 글, 강의 자료, 칼럼, 뉴스레터 — 무엇이든 좋습니다. 주제도 길이도 자유롭게.</li>
+      <li><b>지금 원고와 주제가 전혀 무관한 글이어도 괜찮아요.</b> 책 내용과 상관없이, 작가님이 쓰신 글이면 무엇이든 좋습니다.</li>
+      <li>가능하면 <b>편하게, 힘 빼고 쓰신 글 한 편</b>을 꼭 넣어 주세요. 작가님다운 목소리는 그런 글에서 가장 잘 드러나거든요.</li>
+    </ul>
+    <div class="deadline">
+      ⏳ <b>빠르면 빠를수록 좋습니다.</b> 남은 일정을 여유 있게 가져가기 위해, <b>늦어도 6월 13일 토요일까지</b> 닿게 해주시면 정말 큰 힘이 됩니다. 계약서와 완전원고를 보내주실 때 함께 송부해 주시면 가장 좋습니다.
+    </div>
+    <div class="soft-card">
+      <p style="margin:0"><b>안심하셔도 됩니다.</b> 이건 오롯이 작가님의 목소리를 배우려는 청이지, 글솜씨와는 아무 상관이 없습니다. <em class="soft">다듬어지지 않은 글일수록 오히려 반갑습니다.</em> 그 글에서 작가님의 결을 배워, 책의 문장 하나하나에 작가님의 숨결을 입히려는 것뿐입니다.</p>
+    </div>
+
+    <h2>함께, 의미 있는 열매를 맺고 싶습니다</h2>
+    <p>조금 바쁘고 번거로우실 줄 압니다. 그럼에도 이 한 걸음이, 한 권의 책을 작가님의 이름이 걸린 브랜드 자산으로 바꿔 놓으리라 믿습니다.</p>
+    <p>좋은 씨앗은 이미 심으셨습니다. 거기에 <b>작가님의 목소리</b>라는 온기를 더해 주시면, 나머지는 저희가 끝까지 곁에서 가꾸겠습니다. 작가님의 전문성이 가장 환하게 빛나는 책으로 보답하겠습니다.</p>
+
+    <div class="sign">
+      작가님의 첫 글을 설레는 마음으로 기다리며,<br>
+      <b>도서출판 클북 · DEEPER 편집팀 드림</b><br>
+      <em class="soft">clbook.slower@gmail.com</em>
+    </div>
+  </div>
+
+  <div class="foot">도서출판 클북 · <b>DEEPER</b> &nbsp;|&nbsp; AI 시대를 함께 건너가는 사람들을 위한</div>
+
+</div>
+</body>
+</html>
